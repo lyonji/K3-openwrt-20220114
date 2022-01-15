@@ -16,4 +16,7 @@
 # Add a feed source
 echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
 echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
+cd openwrt/package
 git clone https://github.com/destan19/openfros.git
+git clone https://github.com/Hill-98/luci-app-k3screenctrl.git
+git clone https://github.com/Hill-98/openwrt-k3screenctrl.git
