@@ -21,3 +21,6 @@ cd package
 git clone https://github.com/destan19/openfros.git
 git clone https://github.com/Hill-98/luci-app-k3screenctrl.git
 git clone https://github.com/Hill-98/openwrt-k3screenctrl.git
+cd ..
+source /etc/environment
+./scripts/feeds update -a && ./scripts/feeds install -a
